@@ -27,17 +27,5 @@ public class VoteProcessor {
 		return winner;
 
 	}
-
-	public int hashMapCalculator(HashMap<String, String> hashmap1, HashMap<String, String> hashmap2) {
-		int answer = 0;
-		for (int i = 1; i < hashmap1.size(); i++) {
-			for (int j = 1; j < hashmap2.size(); j++) {
-				if (hashmap1.get(i).equals(hashmap2.get(j))) {
-
-				}
-			}
-		}
-
-		return answer;
-	}
 }
+

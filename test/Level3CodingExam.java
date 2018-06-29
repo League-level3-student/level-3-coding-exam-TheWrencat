@@ -70,7 +70,6 @@ public class Level3CodingExam {
 		hashmap2.put("Tam", "Fine");
 		hashmap2.put("Bob", "Happy");
 
-		// assertEquals(2, new HashMapCalculator().commonKeyValuePairs(hashmap1,
-		// hashmap2));
+		 assertEquals(2, new HashMapCalculator().commonKeyValuePairs(hashmap1, hashmap2));
 	}
 }
